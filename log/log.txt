@@ -2,3 +2,7 @@
 ERROR 2023-01-23 15:24:04,187 [main] (ErrorHandlerFactory.java:106) - [line: 2, col: 102] Bad character in IRI (space): <https://raw.githubusercontent.com/luigi-asprino/aXDTestingDemo/main/.xd-testing/Musical[space]...>
  INFO 2023-01-23 15:24:04,386 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/luigi-asprino/aXDTestingDemo/main/XDTesting/MusicalPerformance/Fragment1/CompetencyQuestionVerificationTest/CQTestCase/CQ001.ttl
 ERROR 2023-01-23 15:24:05,158 [main] (ErrorHandlerFactory.java:106) - [line: 2, col: 102] Bad character in IRI (space): <https://raw.githubusercontent.com/luigi-asprino/aXDTestingDemo/main/.xd-testing/Musical[space]...>
+ INFO 2023-01-23 15:30:47,361 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/luigi-asprino/aXDTestingDemo/main/XDTesting/MusicalPerformance/Fragment1/CompetencyQuestionVerificationTest/CQTestCase/CQ001.ttl
+ERROR 2023-01-23 15:30:50,170 [main] (ErrorHandlerFactory.java:106) - [line: 8, col: 1 ] Broken token (newline):  When was a musical performance recorded?
+ INFO 2023-01-23 15:30:50,355 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/luigi-asprino/aXDTestingDemo/main/XDTesting/MusicalPerformance/Fragment1/CompetencyQuestionVerificationTest/CQTestCase/CQ001.ttl
+ERROR 2023-01-23 15:30:51,210 [main] (ErrorHandlerFactory.java:106) - [line: 8, col: 1 ] Broken token (newline):  When was a musical performance recorded?
