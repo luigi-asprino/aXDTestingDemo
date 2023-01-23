@@ -2,15 +2,15 @@
     "ontologies": [
         {
             "url": "https://w3id.org/polifonia/ontology/musical-performance/",
-            "name": "Musical Performance",
+            "name": "MusicalPerformance",
             "userDefined": true
         }
     ],
     "fragments": [
         {
-            "name": "Fragment 1",
-            "ontologyName": "Musical Performance",
-            "fileName": "Musical Performance/Fragment 1/mp.owl",
+            "name": "Fragment1",
+            "ontologyName": "MusicalPerformance",
+            "fileName": "MusicalPerformance/Fragment1/mp.owl",
             "tests": [
                 {
                     "type": "COMPETENCY_QUESTION",
@@ -19,9 +19,9 @@
                     "status": "failed",
                     "query": "PREFIX mp: <https://w3id.org/polifonia/ontology/musical-performance/> PREFIX core: <https://w3id.org/polifonia/ontology/core/> SELECT DISTINCT ?time WHERE { ?composition mp:isInvolvedInMusicalPerformance ?performance . ?performance core:hasTimeInterval ?time }",
                     "data": "",
-                    "dataFileName": "Musical Performance/Fragment 1/datasets/DatasetCQ.ttl",
+                    "dataFileName": "MusicalPerformance/Fragment1/datasets/DatasetCQ.ttl",
                     "expectedResults": "",
-                    "expectedResultsFileName": "Musical Performance/Fragment 1/expectedResults/CQ-ExpectedResults.json",
+                    "expectedResultsFileName": "MusicalPerformance/Fragment1/expectedResults/CQ-ExpectedResults.json",
                     "id": "CQ001",
                     "check": 0,
                     "statusNotes": "<Response [401]>"
