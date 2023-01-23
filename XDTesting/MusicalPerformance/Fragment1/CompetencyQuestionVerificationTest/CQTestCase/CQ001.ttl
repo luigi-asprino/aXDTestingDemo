@@ -4,8 +4,7 @@
 @prefix tc: <https://raw.githubusercontent.com/luigi-asprino/aXDTestingDemo/main/XDTesting/MusicalPerformance/Fragment1/CompetencyQuestionVerificationTest/CQTestCase/> .
 
 tc:CQ001.ttl a owlunit:CompetencyQuestionVerification ;
-	owlunit:hasCompetencyQuestion " When was a musical performance recorded?
-" ;
+	owlunit:hasCompetencyQuestion " When was a musical performance recorded?" ;
 	owlunit:hasSPARQLUnitTest "PREFIX mp: <https://w3id.org/polifonia/ontology/musical-performance/> PREFIX core: <https://w3id.org/polifonia/ontology/core/> SELECT DISTINCT ?time WHERE { ?composition mp:isInvolvedInMusicalPerformance ?performance . ?performance core:hasTimeInterval ?time }" ;
 	owlunit:hasInputData td:CQ001TD.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
