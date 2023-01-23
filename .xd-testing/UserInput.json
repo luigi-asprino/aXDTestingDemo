@@ -16,7 +16,7 @@
                     "type": "COMPETENCY_QUESTION",
                     "content": " When was a musical performance recorded?\n",
                     "reasoner": "hermiT 1.4.3.456",
-                    "status": "failed",
+                    "status": "warning",
                     "query": "PREFIX mp: <https://w3id.org/polifonia/ontology/musical-performance/> PREFIX core: <https://w3id.org/polifonia/ontology/core/> SELECT DISTINCT ?time WHERE { ?composition mp:isInvolvedInMusicalPerformance ?performance . ?performance core:hasTimeInterval ?time }",
                     "data": "",
                     "dataFileName": "MusicalPerformance/Fragment1/datasets/DatasetCQ.ttl",
@@ -24,7 +24,7 @@
                     "expectedResultsFileName": "MusicalPerformance/Fragment1/expectedResults/CQ-ExpectedResults.json",
                     "id": "CQ001",
                     "check": 0,
-                    "statusNotes": "<Response [401]>"
+                    "statusNotes": "[Errno 2] No such file or directory: '.xd-testing/MusicalPerformance/Fragment1/expectedResults/CQ-ExpectedResults.json'"
                 }
             ]
         }
