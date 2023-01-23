@@ -1,0 +1,4 @@
+ INFO 2023-01-23 15:24:01,101 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/luigi-asprino/aXDTestingDemo/main/XDTesting/MusicalPerformance/Fragment1/CompetencyQuestionVerificationTest/CQTestCase/CQ001.ttl
+ERROR 2023-01-23 15:24:04,187 [main] (ErrorHandlerFactory.java:106) - [line: 2, col: 102] Bad character in IRI (space): <https://raw.githubusercontent.com/luigi-asprino/aXDTestingDemo/main/.xd-testing/Musical[space]...>
+ INFO 2023-01-23 15:24:04,386 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/luigi-asprino/aXDTestingDemo/main/XDTesting/MusicalPerformance/Fragment1/CompetencyQuestionVerificationTest/CQTestCase/CQ001.ttl
+ERROR 2023-01-23 15:24:05,158 [main] (ErrorHandlerFactory.java:106) - [line: 2, col: 102] Bad character in IRI (space): <https://raw.githubusercontent.com/luigi-asprino/aXDTestingDemo/main/.xd-testing/Musical[space]...>
